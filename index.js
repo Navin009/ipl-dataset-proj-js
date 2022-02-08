@@ -32,7 +32,7 @@ for (let i = 1; i < matchesFile.length; i++) {
 	matches.push(match);
 }
 
-let deliveriesFile = fs.readFileSync("./data/deliveries.csv", "utf8");
+let deliveriesFile = fs.readFileSync("./data/deliveries.csv", "utf-8");
 
 deliveriesFile = deliveriesFile.split("\r\n");
 let deliveries = [];
